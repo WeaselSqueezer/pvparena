@@ -170,16 +170,6 @@ public final class ArenaManager {
 			return arena;
 		}
 		for (String s : ARENAS.keySet()) {
-			if (s.endsWith(sName)) {
-				return ARENAS.get(s);
-			}
-		}
-		for (String s : ARENAS.keySet()) {
-			if (s.startsWith(sName)) {
-				return ARENAS.get(s);
-			}
-		}
-		for (String s : ARENAS.keySet()) {
 			if (s.contains(sName)) {
 				return ARENAS.get(s);
 			}
